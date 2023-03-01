@@ -3,7 +3,7 @@ run-name: Testing Actions 🚀
 on: [push]
 jobs:
   Min-Demo:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - run: echo "🎉 The job was automatically triggered by."
       - run: echo "🐧 This job is now running on a server hosted by GitHub!"
