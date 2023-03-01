@@ -1,0 +1,10 @@
+name: Act Demo
+run-name: Testing Actions 🚀
+on: [push]
+jobs:
+  Min-Demo:
+    runs-on: ubuntu-20.04
+    steps:
+      - run: echo "🎉 The job was automatically triggered by."
+      - run: echo "🐧 This job is now running on a server hosted by GitHub!"
+      - run: echo "🔎 The name of your branch."
